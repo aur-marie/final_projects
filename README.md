@@ -1,11 +1,11 @@
 # final_projects
-First Project Java Spring
+FIRST PROJECT JAVA SPRING
 A beginner Spring Boot web application built with Java and Thymeleaf, developed as part of coursework at Vistula University.
 
- Project Overview
+ PROJECT OVERVIEW
 This project demonstrates the basics of building a web application using Spring Boot. It includes a simple controller that handles HTTP GET requests and renders dynamic HTML pages using the Thymeleaf templating engine.
 
- Project Structure
+ PROJECT STRUCTURE
 first-project-java-spring/
 ├── src/
 
@@ -15,11 +15,11 @@ first-project-java-spring/
 
 |      └── pl/edu/vistula/first_project_java_spring/
 
-│             ├── FirstProjectJavaSpringApplication.java 
+│                         ├── FirstProjectJavaSpringApplication.java 
 
-│                  └── controller/
+│                                     └── controller/
 
-│                        └── HelloController.java 
+│                                             └── HelloController.java 
 
 │         └── resources/
 
@@ -30,9 +30,9 @@ first-project-java-spring/
 └── README.md
 
 
- Getting Started
+ GETTING STARTED
  
-Prerequisites
+PREREQUISITES
 
 Java 25
 
@@ -41,7 +41,7 @@ Maven
 An IDE used is IntelliJ IDEA 
 
 
-Running the Application
+RUNNING THE APPLICATION
 
 
 Clone the repository:
@@ -68,7 +68,7 @@ Endpoints
 
 MethodURLDescriptionGET/Returns a plain text hello messageGET/greetingRenders a greeting page with an optional name parameter
 
-Example Usage
+EXAMPLE USAGE
 
 
 Default greeting:
@@ -87,22 +87,22 @@ Custom greeting:
 Displays: Hello, Vistula!
 
 
-Technologies Used
+TECHNOLOGIES USED
 
 
-Java — Core programming language
+Java: Core programming language
 
-Spring Boot — Application framework
+Spring Boot : Application framework
 
-Spring MVC — Web layer / controller handling
+Spring MVC : Web layer / controller handling
 
-Thymeleaf — Server-side HTML templating engine
+Thymeleaf : Server-side HTML templating engine
 
-Maven — Build and dependency management
+Maven : Build and dependency management
 
 
 
- Key Files
+ KEY FILES:
  
 FirstProjectJavaSpringApplication.java
 
@@ -115,9 +115,9 @@ HelloController.java
 A Spring MVC controller (@Controller) that handles two routes:
 
 
-/ — returns a plain text greeting string.
+ returns: a plain text greeting string.
 
-/greeting — accepts an optional name query parameter (defaults to "World"), adds it to the model, and renders the 
+greeting : accepts an optional name query parameter (defaults to "World"), adds it to the model, and renders the 
 greeting.html template.
 
 
