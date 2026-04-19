@@ -6,7 +6,9 @@ A beginner Spring Boot web application built with Java and Thymeleaf, developed 
 This project demonstrates the basics of building a web application using Spring Boot. It includes a simple controller that handles HTTP GET requests and renders dynamic HTML pages using the Thymeleaf templating engine.
 
  PROJECT STRUCTURE
+ 
 first-project-java-spring/
+
 ├── src/
 
 |  └── main/
